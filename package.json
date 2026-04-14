@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "workspaces": ["backend", "frontend", "admin"],
+  "name": "saga-ai",
+  "version": "1.0.0",
+  "type": "module",
+"scripts": {
+  "dev": "node run.js",
+  "build": "npm run build --workspaces",
+  "start": "node backend/server.js"
+},
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
+
+
+
